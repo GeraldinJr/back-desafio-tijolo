@@ -4,6 +4,7 @@ const dicionario = [['a', 'b', 'c'],['d', 'e', 'f'], ['g', 'h', 'i'],
 
 const traducao = async (req, res) => {
     const {codigo, shift} = req.body;
+   
     const arrayNumbers = codigo.split('');
     let pos = arrayNumbers.length - 1;
 

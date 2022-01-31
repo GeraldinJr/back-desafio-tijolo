@@ -3,6 +3,6 @@ const {traducao} = require('./controladores.js/traducao');
 
 const rotas = express();
 
-rotas.get("/", traducao);
+rotas.post("/", traducao);
 
 module.exports = rotas;
